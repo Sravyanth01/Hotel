@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--- primary meta tags-->
+ <style>
+        .center {
+            text-align: center;
+        }
+
+        .navbar-item {
+            display: inline-block;
+        }
+    </style>
+  <title>Foodday</title>
+  <meta name="title" content="Foodday">
+  <meta name="description" content="This is a Restaurant website">
+
+  <!--- google font link-->
+  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="restaurant1styles.css">
+
+</head>
+
+<body id="top">
+
+  <!--- #PRELOADER-->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Foodday</p>
+  </div>
+  <!--- #TOP BAR-->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Connaught Place, New Delhi
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+056234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+05 623 456 7890</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@foodday.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@foodday.com</span>
+      </a>
+
+    </div>
+  </div>
+<!--- #HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="C:\Users\Dell\Desktop\web final\logo.jpg" width="70" height="30" alt="Foodday - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="C:\Users\Dell\Desktop\web final\logo.jpg" width="160" height="50" alt="Foodday - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+<a href="restaurant1.html" class="navbar-item">HOME</a>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+<a href="Menus.html" class="navbar-item">MENUS</a>
+
+            </a>
+          </li>
+            
+ <li class="navbar-item">
+            <a href="#testimonials" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+<a href="testimonials.html" class="navbar-item">TESTIMONIALS</a>
+
+            </a>
+          </li>
+<li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+<a href="blog.html" class="navbar-item">BLOG</a>
+            </a>
+          </li>
+ <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+<a href="contact.html" class="navbar-item">CONTACT</a>
+              
+            </a>
+          </li>
+        
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Connaught Place, <br>
+            New Delhi
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@foodday.com" class="body-4 sidebar-link">booking@foodday.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+05623123456" class="body-1 contact-number hover-underline">
+            +05-623-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+      
+<a href="onlinereservation.html" class="navbar-item">SAVE A SEAT</a>
+              
+            </a>
+          </li>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+<main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="C:\Users\Dell\Desktop\web final\res3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Traditional & Hygiene</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the love of <br>
+              delicious food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="C:\Users\Dell\Desktop\web final\res1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="C:\Users\Dell\Desktop\web final\res2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+      </section>
+
+      <!--- #SERVICE-->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            "Savor the moment with our delightful lunches, enticing dinners and specially handicrafted catering menus, meticulously curated to elevate your dining experience to new heights."
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="C:\Users\Dell\Desktop\web final\breakfast.jpg" width="285" height="336" loading="lazy" alt="Lunch"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Lunch</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="C:\Users\Dell\Desktop\web final\dinner.jpeg" width="285" height="336" loading="lazy" alt="Dinner"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Dinner</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="C:\Users\Dell\Desktop\web final\download (2).jpeg" width="285" height="336" loading="lazy" alt="Catering Special"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Catering Special</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          
+        </div>
+      </section>
+
+
+      <!--- #ABOUT-->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+
+            <p class="section-text">
+             Welcome to Foodday, an exquisite culinary heaven nestled in the heart of Delhi. Our story is steeped in passion for flavors, a commitment to quality, and an unwavering dedication to providing an unforgettable dining experience. Step into our chic and inviting space, where every detail has been curated to transport you to a world where gastronomy meets artistry.</p>
+<p>
+
+At Foodday, we celebrate the rich tapestry of India's diverse culinary landscape. Our menu is a symphony of innovative dishes inspired by local ingredients, blended seamlessly with global influences. From the first bite to the last, our chefs craft each dish with precision, ensuring a harmonious fusion of flavors that dance on your pallete. Join us on a culinary journey that reflects the spirit and sophistication of South Delhi's vibrant dining scene at Foodday.
+            </p>
+
+            <div class="contact-label"style="margin-top: 1em;">Book Through Call</div>
+
+             <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+80 (400) 123 4567</a>
+
+       
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="C:\Users\Dell\Desktop\web final\WhatsApp Image 2023-11-16 at 11.27.46_0a4ca578.jpg" width="570" height="600" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            
+          </figure>
+
+          
+        </div>
+      </section>
+
+                <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+            extraordinary.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <p class="label-2 profile-name">Daksh Sharma</p>
+      <div style="display: flex; justify-content: center;"style="font-size: 40px;">
+<div style="margin-top: 2em;">
+  
+    
+    
+<a href="testimonials.html" class="navbar-item"style="font-size: 40px;">READ MORE</a>
+  </a>
+</div>
+
+
+        </div>
+      </section>
+          <div class="wrapper">
+
+            
+          </div>
+         </div>
+
+
+        </div>
+      </section>
+
+
+
+      <!--- #FEATURES-->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strength</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="C:\Users\Dell\Desktop\web final\pexels-chan-walrus-958545.jpg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">"Indulge in a symphony of flavors where every dish is crafted with the highest hygiene standards. "</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="C:\Users\Dell\Desktop\web final\1_7Hj1l3pNwhDKQv-xEDip8Q.jpg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                <p class="label-1 card-text">"Experience a rejuvenating stay surrounded by the invigorating ambiance of our meticulously maintained, green oasis."</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="C:\Users\Dell\Desktop\web final\istockphoto-951132442-612x612.jpg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                <p class="label-1 card-text">"Savor the artistry on your plate as our talented culinary team transforms every meal into a delightful experience."</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="C:\Users\Dell\Desktop\web final\Hotel-Event_planner.jpg" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Event & Party</h3>
+
+                <p class="label-1 card-text">"Discover the perfect blend of sophistication and excitement in the heart of Delhi."</p>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+<!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="C:\Users\Dell\Desktop\web final\p013vqt4.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you will try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-02-15">15/02/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Inaugrations</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Embark on a journey of unparalleled luxury and sophistication as we unveil a new era of hospitality
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="C:\Users\Dell\Desktop\web final\SHR-Grand-Final_01135-1290x650.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you will try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-02-08">08/02/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Meetings</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Elevate your business agenda in our sophisticated venues.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="C:\Users\Dell\Desktop\web final\WhatsApp Image 2023-11-16 at 11.27.46_66130c6b.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you will try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-09-03">03/09/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipie</p>
+
+                  <h3 class="card-title title-2 text-center">
+                     Our culinary artisans transform fresh, local ingredients into a symphony of flavors.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+<div class="center">
+
+           <a href="blog.html" class="navbar-item "style="font-size: 40px;">VIEW OUR BLOG</a>
+</div>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!--- #FOOTER-->
+
+  <footer class="footer section has-bg-image text-center">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="C:\Users\Dell\Desktop\web final\logo.jpg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Connaught Place, New Delhi
+          </address>
+
+          <a href="mailto:booking@foodday.com" class="body-4 contact-link">booking@foodday.com</a>
+
+          <a href="tel:+05623123456" class="body-4 contact-link">Booking Request : +05-623-123456</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">discounts.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Foodday. All Rights Reserved 
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+<!--- #BACK TO TOP-->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+<!--- custom js link-->
+  <script src="restaurant1.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
